@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D215210286BC6CE007C0A0F /* HaruBudgetWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D21520F286BC6CE007C0A0F /* HaruBudgetWatchApp.swift */; };
+		2D215212286BC6CE007C0A0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D215211286BC6CE007C0A0F /* ContentView.swift */; };
+		2D215214286BC6D0007C0A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D215213286BC6D0007C0A0F /* Assets.xcassets */; };
+		2D215217286BC6D0007C0A0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D215216286BC6D0007C0A0F /* Preview Assets.xcassets */; };
+		2D21521B286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2D21521A286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D215220286BC6D1007C0A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D21521F286BC6D1007C0A0F /* Assets.xcassets */; };
+		2D215226286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D215225286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D21522B286BC6D1007C0A0F /* HaruBudgetWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D21522A286BC6D1007C0A0F /* HaruBudgetWatchApp.swift */; };
+		2D21522D286BC6D1007C0A0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D21522C286BC6D1007C0A0F /* ContentView.swift */; };
+		2D21522F286BC6D1007C0A0F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D21522E286BC6D1007C0A0F /* NotificationController.swift */; };
+		2D215231286BC6D1007C0A0F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D215230286BC6D1007C0A0F /* NotificationView.swift */; };
+		2D215233286BC6D1007C0A0F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D215232286BC6D1007C0A0F /* ComplicationController.swift */; };
+		2D215235286BC6D2007C0A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D215234286BC6D2007C0A0F /* Assets.xcassets */; };
+		2D215238286BC6D2007C0A0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D215237286BC6D2007C0A0F /* Preview Assets.xcassets */; };
+		2D5AE23A28BC94C7005F3BC3 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5AE23928BC94C7005F3BC3 /* Intents.framework */; };
+		2D5AE23D28BC94C7005F3BC3 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AE23C28BC94C7005F3BC3 /* IntentHandler.swift */; };
+		2D5AE24528BC94C7005F3BC3 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5AE24428BC94C7005F3BC3 /* IntentsUI.framework */; };
+		2D5AE24828BC94C8005F3BC3 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AE24728BC94C8005F3BC3 /* IntentViewController.swift */; };
+		2D5AE24B28BC94C8005F3BC3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5AE24928BC94C8005F3BC3 /* MainInterface.storyboard */; };
+		2D5AE24F28BC94C8005F3BC3 /* HaruIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D5AE24328BC94C7005F3BC3 /* HaruIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D5AE25228BC94C8005F3BC3 /* HaruIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D5AE23728BC94C7005F3BC3 /* HaruIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D21521C286BC6D0007C0A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D215204286BC6CE007C0A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D215219286BC6D0007C0A0F;
+			remoteInfo = "HaruBudgetWatch WatchKit App";
+		};
+		2D215227286BC6D1007C0A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D215204286BC6CE007C0A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D215224286BC6D1007C0A0F;
+			remoteInfo = "HaruBudgetWatch WatchKit Extension";
+		};
+		2D5AE24D28BC94C8005F3BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D215204286BC6CE007C0A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D5AE24228BC94C7005F3BC3;
+			remoteInfo = HaruIntentsUI;
+		};
+		2D5AE25028BC94C8005F3BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D215204286BC6CE007C0A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D5AE23628BC94C7005F3BC3;
+			remoteInfo = HaruIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D215240286BC6D2007C0A0F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2D215226286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D215244286BC6D2007C0A0F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2D21521B286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5AE25328BC94C8005F3BC3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2D5AE25228BC94C8005F3BC3 /* HaruIntents.appex in Embed App Extensions */,
+				2D5AE24F28BC94C8005F3BC3 /* HaruIntentsUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D21520C286BC6CE007C0A0F /* HaruBudgetWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaruBudgetWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D21520F286BC6CE007C0A0F /* HaruBudgetWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaruBudgetWatchApp.swift; sourceTree = "<group>"; };
+		2D215211286BC6CE007C0A0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D215213286BC6D0007C0A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D215216286BC6D0007C0A0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D21521A286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HaruBudgetWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D21521F286BC6D1007C0A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D215225286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HaruBudgetWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D21522A286BC6D1007C0A0F /* HaruBudgetWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaruBudgetWatchApp.swift; sourceTree = "<group>"; };
+		2D21522C286BC6D1007C0A0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D21522E286BC6D1007C0A0F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2D215230286BC6D1007C0A0F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		2D215232286BC6D1007C0A0F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2D215234286BC6D2007C0A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D215237286BC6D2007C0A0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D215239286BC6D2007C0A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D21523A286BC6D2007C0A0F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2D5AE23728BC94C7005F3BC3 /* HaruIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HaruIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5AE23928BC94C7005F3BC3 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		2D5AE23C28BC94C7005F3BC3 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		2D5AE23E28BC94C7005F3BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5AE24328BC94C7005F3BC3 /* HaruIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HaruIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5AE24428BC94C7005F3BC3 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		2D5AE24728BC94C8005F3BC3 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		2D5AE24A28BC94C8005F3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2D5AE24C28BC94C8005F3BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D215209286BC6CE007C0A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D215222286BC6D1007C0A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5AE23428BC94C7005F3BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5AE23A28BC94C7005F3BC3 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5AE24028BC94C7005F3BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5AE24528BC94C7005F3BC3 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D215203286BC6CE007C0A0F = {
+			isa = PBXGroup;
+			children = (
+				2D21520E286BC6CE007C0A0F /* HaruBudgetWatch */,
+				2D21521E286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App */,
+				2D215229286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension */,
+				2D5AE23B28BC94C7005F3BC3 /* HaruIntents */,
+				2D5AE24628BC94C7005F3BC3 /* HaruIntentsUI */,
+				2D5AE23828BC94C7005F3BC3 /* Frameworks */,
+				2D21520D286BC6CE007C0A0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D21520D286BC6CE007C0A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D21520C286BC6CE007C0A0F /* HaruBudgetWatch.app */,
+				2D21521A286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App.app */,
+				2D215225286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension.appex */,
+				2D5AE23728BC94C7005F3BC3 /* HaruIntents.appex */,
+				2D5AE24328BC94C7005F3BC3 /* HaruIntentsUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D21520E286BC6CE007C0A0F /* HaruBudgetWatch */ = {
+			isa = PBXGroup;
+			children = (
+				2D21520F286BC6CE007C0A0F /* HaruBudgetWatchApp.swift */,
+				2D215211286BC6CE007C0A0F /* ContentView.swift */,
+				2D215213286BC6D0007C0A0F /* Assets.xcassets */,
+				2D215215286BC6D0007C0A0F /* Preview Content */,
+			);
+			path = HaruBudgetWatch;
+			sourceTree = "<group>";
+		};
+		2D215215286BC6D0007C0A0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D215216286BC6D0007C0A0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D21521E286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2D21521F286BC6D1007C0A0F /* Assets.xcassets */,
+			);
+			path = "HaruBudgetWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		2D215229286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2D21522A286BC6D1007C0A0F /* HaruBudgetWatchApp.swift */,
+				2D21522C286BC6D1007C0A0F /* ContentView.swift */,
+				2D21522E286BC6D1007C0A0F /* NotificationController.swift */,
+				2D215230286BC6D1007C0A0F /* NotificationView.swift */,
+				2D215232286BC6D1007C0A0F /* ComplicationController.swift */,
+				2D215234286BC6D2007C0A0F /* Assets.xcassets */,
+				2D215239286BC6D2007C0A0F /* Info.plist */,
+				2D21523A286BC6D2007C0A0F /* PushNotificationPayload.apns */,
+				2D215236286BC6D2007C0A0F /* Preview Content */,
+			);
+			path = "HaruBudgetWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2D215236286BC6D2007C0A0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D215237286BC6D2007C0A0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D5AE23828BC94C7005F3BC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5AE23928BC94C7005F3BC3 /* Intents.framework */,
+				2D5AE24428BC94C7005F3BC3 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D5AE23B28BC94C7005F3BC3 /* HaruIntents */ = {
+			isa = PBXGroup;
+			children = (
+				2D5AE23C28BC94C7005F3BC3 /* IntentHandler.swift */,
+				2D5AE23E28BC94C7005F3BC3 /* Info.plist */,
+			);
+			path = HaruIntents;
+			sourceTree = "<group>";
+		};
+		2D5AE24628BC94C7005F3BC3 /* HaruIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				2D5AE24728BC94C8005F3BC3 /* IntentViewController.swift */,
+				2D5AE24928BC94C8005F3BC3 /* MainInterface.storyboard */,
+				2D5AE24C28BC94C8005F3BC3 /* Info.plist */,
+			);
+			path = HaruIntentsUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D21520B286BC6CE007C0A0F /* HaruBudgetWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D215245286BC6D2007C0A0F /* Build configuration list for PBXNativeTarget "HaruBudgetWatch" */;
+			buildPhases = (
+				2D215208286BC6CE007C0A0F /* Sources */,
+				2D215209286BC6CE007C0A0F /* Frameworks */,
+				2D21520A286BC6CE007C0A0F /* Resources */,
+				2D215244286BC6D2007C0A0F /* Embed Watch Content */,
+				2D5AE25328BC94C8005F3BC3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D21521D286BC6D0007C0A0F /* PBXTargetDependency */,
+				2D5AE24E28BC94C8005F3BC3 /* PBXTargetDependency */,
+				2D5AE25128BC94C8005F3BC3 /* PBXTargetDependency */,
+			);
+			name = HaruBudgetWatch;
+			productName = HaruBudgetWatch;
+			productReference = 2D21520C286BC6CE007C0A0F /* HaruBudgetWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D215219286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D215241286BC6D2007C0A0F /* Build configuration list for PBXNativeTarget "HaruBudgetWatch WatchKit App" */;
+			buildPhases = (
+				2D215218286BC6D0007C0A0F /* Resources */,
+				2D215240286BC6D2007C0A0F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D215228286BC6D1007C0A0F /* PBXTargetDependency */,
+			);
+			name = "HaruBudgetWatch WatchKit App";
+			productName = "HaruBudgetWatch WatchKit App";
+			productReference = 2D21521A286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2D215224286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D21523D286BC6D2007C0A0F /* Build configuration list for PBXNativeTarget "HaruBudgetWatch WatchKit Extension" */;
+			buildPhases = (
+				2D215221286BC6D1007C0A0F /* Sources */,
+				2D215222286BC6D1007C0A0F /* Frameworks */,
+				2D215223286BC6D1007C0A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HaruBudgetWatch WatchKit Extension";
+			productName = "HaruBudgetWatch WatchKit Extension";
+			productReference = 2D215225286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		2D5AE23628BC94C7005F3BC3 /* HaruIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5AE25928BC94C8005F3BC3 /* Build configuration list for PBXNativeTarget "HaruIntents" */;
+			buildPhases = (
+				2D5AE23328BC94C7005F3BC3 /* Sources */,
+				2D5AE23428BC94C7005F3BC3 /* Frameworks */,
+				2D5AE23528BC94C7005F3BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaruIntents;
+			productName = HaruIntents;
+			productReference = 2D5AE23728BC94C7005F3BC3 /* HaruIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2D5AE24228BC94C7005F3BC3 /* HaruIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5AE25828BC94C8005F3BC3 /* Build configuration list for PBXNativeTarget "HaruIntentsUI" */;
+			buildPhases = (
+				2D5AE23F28BC94C7005F3BC3 /* Sources */,
+				2D5AE24028BC94C7005F3BC3 /* Frameworks */,
+				2D5AE24128BC94C7005F3BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaruIntentsUI;
+			productName = HaruIntentsUI;
+			productReference = 2D5AE24328BC94C7005F3BC3 /* HaruIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D215204286BC6CE007C0A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2D21520B286BC6CE007C0A0F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2D215219286BC6D0007C0A0F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2D215224286BC6D1007C0A0F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2D5AE23628BC94C7005F3BC3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2D5AE24228BC94C7005F3BC3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2D215207286BC6CE007C0A0F /* Build configuration list for PBXProject "HaruBudgetWatch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D215203286BC6CE007C0A0F;
+			productRefGroup = 2D21520D286BC6CE007C0A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D21520B286BC6CE007C0A0F /* HaruBudgetWatch */,
+				2D215219286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App */,
+				2D215224286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension */,
+				2D5AE23628BC94C7005F3BC3 /* HaruIntents */,
+				2D5AE24228BC94C7005F3BC3 /* HaruIntentsUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D21520A286BC6CE007C0A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D215217286BC6D0007C0A0F /* Preview Assets.xcassets in Resources */,
+				2D215214286BC6D0007C0A0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D215218286BC6D0007C0A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D215220286BC6D1007C0A0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D215223286BC6D1007C0A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D215238286BC6D2007C0A0F /* Preview Assets.xcassets in Resources */,
+				2D215235286BC6D2007C0A0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5AE23528BC94C7005F3BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5AE24128BC94C7005F3BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5AE24B28BC94C8005F3BC3 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D215208286BC6CE007C0A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D215212286BC6CE007C0A0F /* ContentView.swift in Sources */,
+				2D215210286BC6CE007C0A0F /* HaruBudgetWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D215221286BC6D1007C0A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D21522F286BC6D1007C0A0F /* NotificationController.swift in Sources */,
+				2D21522D286BC6D1007C0A0F /* ContentView.swift in Sources */,
+				2D215233286BC6D1007C0A0F /* ComplicationController.swift in Sources */,
+				2D21522B286BC6D1007C0A0F /* HaruBudgetWatchApp.swift in Sources */,
+				2D215231286BC6D1007C0A0F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5AE23328BC94C7005F3BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5AE23D28BC94C7005F3BC3 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5AE23F28BC94C7005F3BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5AE24828BC94C8005F3BC3 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D21521D286BC6D0007C0A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D215219286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App */;
+			targetProxy = 2D21521C286BC6D0007C0A0F /* PBXContainerItemProxy */;
+		};
+		2D215228286BC6D1007C0A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D215224286BC6D1007C0A0F /* HaruBudgetWatch WatchKit Extension */;
+			targetProxy = 2D215227286BC6D1007C0A0F /* PBXContainerItemProxy */;
+		};
+		2D5AE24E28BC94C8005F3BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D5AE24228BC94C7005F3BC3 /* HaruIntentsUI */;
+			targetProxy = 2D5AE24D28BC94C8005F3BC3 /* PBXContainerItemProxy */;
+		};
+		2D5AE25128BC94C8005F3BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D5AE23628BC94C7005F3BC3 /* HaruIntents */;
+			targetProxy = 2D5AE25028BC94C8005F3BC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D5AE24928BC94C8005F3BC3 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5AE24A28BC94C8005F3BC3 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D21523B286BC6D2007C0A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D21523C286BC6D2007C0A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2D21523E286BC6D2007C0A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaruBudgetWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HaruBudgetWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HaruBudgetWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2D21523F286BC6D2007C0A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaruBudgetWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HaruBudgetWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HaruBudgetWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2D215242286BC6D2007C0A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = HaruBudgetWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "HaruBudgetWatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.cool-song.HaruBudgetWatch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2D215243286BC6D2007C0A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = HaruBudgetWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "HaruBudgetWatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.cool-song.HaruBudgetWatch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2D215246286BC6D2007C0A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaruBudgetWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D215247286BC6D2007C0A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaruBudgetWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D5AE25428BC94C8005F3BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaruIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HaruIntents;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch.HaruIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5AE25528BC94C8005F3BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaruIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HaruIntents;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch.HaruIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D5AE25628BC94C8005F3BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaruIntentsUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HaruIntentsUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch.HaruIntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5AE25728BC94C8005F3BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR5A5F6L75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaruIntentsUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HaruIntentsUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool-song.HaruBudgetWatch.HaruIntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D215207286BC6CE007C0A0F /* Build configuration list for PBXProject "HaruBudgetWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D21523B286BC6D2007C0A0F /* Debug */,
+				2D21523C286BC6D2007C0A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D21523D286BC6D2007C0A0F /* Build configuration list for PBXNativeTarget "HaruBudgetWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D21523E286BC6D2007C0A0F /* Debug */,
+				2D21523F286BC6D2007C0A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D215241286BC6D2007C0A0F /* Build configuration list for PBXNativeTarget "HaruBudgetWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D215242286BC6D2007C0A0F /* Debug */,
+				2D215243286BC6D2007C0A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D215245286BC6D2007C0A0F /* Build configuration list for PBXNativeTarget "HaruBudgetWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D215246286BC6D2007C0A0F /* Debug */,
+				2D215247286BC6D2007C0A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5AE25828BC94C8005F3BC3 /* Build configuration list for PBXNativeTarget "HaruIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5AE25628BC94C8005F3BC3 /* Debug */,
+				2D5AE25728BC94C8005F3BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5AE25928BC94C8005F3BC3 /* Build configuration list for PBXNativeTarget "HaruIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5AE25428BC94C8005F3BC3 /* Debug */,
+				2D5AE25528BC94C8005F3BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D215204286BC6CE007C0A0F /* Project object */;
+}
