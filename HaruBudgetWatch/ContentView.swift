@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            ListView()
+                .tabItem {
+                    Label("list", systemImage: "list.bullet")
+                }
+            Text("Hello!")
+                .padding()
+                .tabItem {
+                    Label("home", systemImage: "house")
+                }
+        }        
     }
     
     //setup NSUserActivity
