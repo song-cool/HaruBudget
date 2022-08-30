@@ -12,6 +12,8 @@ struct HaruBudgetWatchApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, PersistentController.shared.container.viewContext)
+
         }
     }
 }
