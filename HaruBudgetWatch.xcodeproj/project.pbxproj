@@ -28,6 +28,23 @@
 		2D5AE24B28BC94C8005F3BC3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5AE24928BC94C8005F3BC3 /* MainInterface.storyboard */; };
 		2D5AE24F28BC94C8005F3BC3 /* HaruIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D5AE24328BC94C7005F3BC3 /* HaruIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2D5AE25228BC94C8005F3BC3 /* HaruIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D5AE23728BC94C7005F3BC3 /* HaruIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D5AE25B28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AE25A28BCAA71005F3BC3 /* NoteIntent.intentdefinition */; };
+		2D5AE25C28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Resources */ = {isa = PBXBuildFile; fileRef = 2D5AE25A28BCAA71005F3BC3 /* NoteIntent.intentdefinition */; };
+		2D5AE25D28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AE25A28BCAA71005F3BC3 /* NoteIntent.intentdefinition */; };
+		2D5AE25E28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AE25A28BCAA71005F3BC3 /* NoteIntent.intentdefinition */; };
+		2D5AE25F28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AE25A28BCAA71005F3BC3 /* NoteIntent.intentdefinition */; };
+		2D5AE26128BCAAA9005F3BC3 /* NoteMoneyIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AE26028BCAAA9005F3BC3 /* NoteMoneyIntent.swift */; };
+		2DBA865228BDCE5B00227FB4 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865128BDCE5B00227FB4 /* ListView.swift */; };
+		2DBA865628BDE4FA00227FB4 /* AccountBookModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865428BDE4FA00227FB4 /* AccountBookModel.xcdatamodeld */; };
+		2DBA865728BDE4FC00227FB4 /* AccountBookModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865428BDE4FA00227FB4 /* AccountBookModel.xcdatamodeld */; };
+		2DBA865828BDE4FD00227FB4 /* AccountBookModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865428BDE4FA00227FB4 /* AccountBookModel.xcdatamodeld */; };
+		2DBA865928BDE4FD00227FB4 /* AccountBookModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865428BDE4FA00227FB4 /* AccountBookModel.xcdatamodeld */; };
+		2DBA865B28BDE72100227FB4 /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865A28BDE72100227FB4 /* PersistentController.swift */; };
+		2DBA865C28BDE72100227FB4 /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865A28BDE72100227FB4 /* PersistentController.swift */; };
+		2DBA865D28BDE72100227FB4 /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865A28BDE72100227FB4 /* PersistentController.swift */; };
+		2DBA866028BDF60300227FB4 /* AddNewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865F28BDF60300227FB4 /* AddNewItem.swift */; };
+		2DBA866128BDF60300227FB4 /* AddNewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865F28BDF60300227FB4 /* AddNewItem.swift */; };
+		2DBA866228BDF60300227FB4 /* AddNewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA865F28BDF60300227FB4 /* AddNewItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +142,14 @@
 		2D5AE24728BC94C8005F3BC3 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		2D5AE24A28BC94C8005F3BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		2D5AE24C28BC94C8005F3BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5AE25A28BCAA71005F3BC3 /* NoteIntent.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = NoteIntent.intentdefinition; sourceTree = "<group>"; };
+		2D5AE26028BCAAA9005F3BC3 /* NoteMoneyIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMoneyIntent.swift; sourceTree = "<group>"; };
+		2D5AE26528BCAD3C005F3BC3 /* HaruBudgetWatch-WatchKit-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HaruBudgetWatch-WatchKit-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2D5AE26628BCAD3C005F3BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2DBA865128BDCE5B00227FB4 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		2DBA865528BDE4FA00227FB4 /* AccountBookModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccountBookModel.xcdatamodel; sourceTree = "<group>"; };
+		2DBA865A28BDE72100227FB4 /* PersistentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentController.swift; sourceTree = "<group>"; };
+		2DBA865F28BDF60300227FB4 /* AddNewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +214,9 @@
 		2D21520E286BC6CE007C0A0F /* HaruBudgetWatch */ = {
 			isa = PBXGroup;
 			children = (
+				2DBA865328BDE4BE00227FB4 /* Model */,
+				2DBA865E28BDEBC200227FB4 /* View */,
+				2D5AE26628BCAD3C005F3BC3 /* Info.plist */,
 				2D21520F286BC6CE007C0A0F /* HaruBudgetWatchApp.swift */,
 				2D215211286BC6CE007C0A0F /* ContentView.swift */,
 				2D215213286BC6D0007C0A0F /* Assets.xcassets */,
@@ -208,6 +236,7 @@
 		2D21521E286BC6D0007C0A0F /* HaruBudgetWatch WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				2D5AE26528BCAD3C005F3BC3 /* HaruBudgetWatch-WatchKit-App-Info.plist */,
 				2D21521F286BC6D1007C0A0F /* Assets.xcassets */,
 			);
 			path = "HaruBudgetWatch WatchKit App";
@@ -249,6 +278,8 @@
 		2D5AE23B28BC94C7005F3BC3 /* HaruIntents */ = {
 			isa = PBXGroup;
 			children = (
+				2D5AE25A28BCAA71005F3BC3 /* NoteIntent.intentdefinition */,
+				2D5AE26028BCAAA9005F3BC3 /* NoteMoneyIntent.swift */,
 				2D5AE23C28BC94C7005F3BC3 /* IntentHandler.swift */,
 				2D5AE23E28BC94C7005F3BC3 /* Info.plist */,
 			);
@@ -263,6 +294,24 @@
 				2D5AE24C28BC94C8005F3BC3 /* Info.plist */,
 			);
 			path = HaruIntentsUI;
+			sourceTree = "<group>";
+		};
+		2DBA865328BDE4BE00227FB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA865428BDE4FA00227FB4 /* AccountBookModel.xcdatamodeld */,
+				2DBA865A28BDE72100227FB4 /* PersistentController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DBA865E28BDEBC200227FB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA865128BDCE5B00227FB4 /* ListView.swift */,
+				2DBA865F28BDF60300227FB4 /* AddNewItem.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,6 +470,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5AE25C28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Resources */,
 				2D215220286BC6D1007C0A0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,7 +506,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5AE26128BCAAA9005F3BC3 /* NoteMoneyIntent.swift in Sources */,
+				2DBA865B28BDE72100227FB4 /* PersistentController.swift in Sources */,
+				2D5AE25B28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Sources */,
+				2DBA865228BDCE5B00227FB4 /* ListView.swift in Sources */,
 				2D215212286BC6CE007C0A0F /* ContentView.swift in Sources */,
+				2DBA866028BDF60300227FB4 /* AddNewItem.swift in Sources */,
+				2DBA865628BDE4FA00227FB4 /* AccountBookModel.xcdatamodeld in Sources */,
 				2D215210286BC6CE007C0A0F /* HaruBudgetWatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,11 +521,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5AE25D28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Sources */,
 				2D21522F286BC6D1007C0A0F /* NotificationController.swift in Sources */,
+				2DBA865C28BDE72100227FB4 /* PersistentController.swift in Sources */,
 				2D21522D286BC6D1007C0A0F /* ContentView.swift in Sources */,
 				2D215233286BC6D1007C0A0F /* ComplicationController.swift in Sources */,
 				2D21522B286BC6D1007C0A0F /* HaruBudgetWatchApp.swift in Sources */,
 				2D215231286BC6D1007C0A0F /* NotificationView.swift in Sources */,
+				2DBA865728BDE4FC00227FB4 /* AccountBookModel.xcdatamodeld in Sources */,
+				2DBA866128BDF60300227FB4 /* AddNewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +537,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBA866228BDF60300227FB4 /* AddNewItem.swift in Sources */,
+				2D5AE25E28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Sources */,
+				2DBA865928BDE4FD00227FB4 /* AccountBookModel.xcdatamodeld in Sources */,
+				2DBA865D28BDE72100227FB4 /* PersistentController.swift in Sources */,
 				2D5AE23D28BC94C7005F3BC3 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +549,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5AE25F28BCAA71005F3BC3 /* NoteIntent.intentdefinition in Sources */,
+				2DBA865828BDE4FD00227FB4 /* AccountBookModel.xcdatamodeld in Sources */,
 				2D5AE24828BC94C8005F3BC3 /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -711,6 +777,7 @@
 				DEVELOPMENT_TEAM = LR5A5F6L75;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = HaruBudgetWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HaruBudgetWatch-WatchKit-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "HaruBudgetWatch WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.cool-song.HaruBudgetWatch";
@@ -737,6 +804,7 @@
 				DEVELOPMENT_TEAM = LR5A5F6L75;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = HaruBudgetWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HaruBudgetWatch-WatchKit-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "HaruBudgetWatch WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.cool-song.HaruBudgetWatch";
@@ -765,6 +833,8 @@
 				DEVELOPMENT_TEAM = LR5A5F6L75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaruBudgetWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Harubudget;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -797,6 +867,8 @@
 				DEVELOPMENT_TEAM = LR5A5F6L75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaruBudgetWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Harubudget;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -986,6 +1058,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DBA865428BDE4FA00227FB4 /* AccountBookModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DBA865528BDE4FA00227FB4 /* AccountBookModel.xcdatamodel */,
+			);
+			currentVersion = 2DBA865528BDE4FA00227FB4 /* AccountBookModel.xcdatamodel */;
+			path = AccountBookModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2D215204286BC6CE007C0A0F /* Project object */;
 }
