@@ -16,6 +16,7 @@
 				<string>INSendMessageIntent</string>
 				<string>INSetMessageAttributeIntent</string>
 				<string>IntentIntent</string>
+				<string>WriteDataIntent</string>
 			</array>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>

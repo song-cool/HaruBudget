@@ -9,7 +9,7 @@ import Intents
 
 // As an example, this class is set up to handle Message intents.
 // You will want to replace this or add other intents as appropriate.
-/// The intents you wish to handle must be declared in the extension's Info.plist.
+/// The intents you wish to handle must be declared in the extension's Info.plist. 하려는것을 인포피리스트에 추가해야함!
 
 // You can test your example integration by saying things to Siri like:
 // "Send a message using <myApp>"
@@ -21,12 +21,14 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
     override func handler(for intent: INIntent) -> Any {
         // This is the default implementation.  If you want different objects to handle different intents,
         // you can override this and return the handler you want for that particular intent.
+        // 원하는 인텐트로 수정해도됨!
         
         return self
     }
     
     // MARK: - INSendMessageIntentHandling
     
+    // 입력값 처리
     // Implement resolution methods to provide additional information about your intent (optional).
     func resolveRecipients(for intent: INSendMessageIntent, with completion: @escaping ([INSendMessageRecipientResolutionResult]) -> Void) {
         if let recipients = intent.recipients {
@@ -43,14 +45,20 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
                 switch matchingContacts.count {
                 case 2  ... Int.max:
                     // We need Siri's help to ask user to pick one from the matches.
+                    //값 선택이 필요한경우
+
                     resolutionResults += [INSendMessageRecipientResolutionResult.disambiguation(with: matchingContacts)]
                     
                 case 1:
                     // We have exactly one matching contact
+                    // 값이 완전 일치한 경우
+
                     resolutionResults += [INSendMessageRecipientResolutionResult.success(with: recipient)]
                     
                 case 0:
                     // We have no contacts matching the description provided
+                    // 불일치시
+
                     resolutionResults += [INSendMessageRecipientResolutionResult.unsupported()]
                     
                 default:
@@ -73,7 +81,8 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
     }
     
     // Once resolution is completed, perform validation on the intent and provide confirmation (optional).
-    
+    /// confirm
+
     func confirm(intent: INSendMessageIntent, completion: @escaping (INSendMessageIntentResponse) -> Void) {
         // Verify user is authenticated and your app is ready to send a message.
         
@@ -122,3 +131,4 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
         completion(response)
     }
 }
+

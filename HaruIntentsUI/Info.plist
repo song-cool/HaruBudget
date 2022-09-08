@@ -10,6 +10,7 @@
 			<array>
 				<string>INSendMessageIntent</string>
 				<string>IntentIntent</string>
+				<string>WriteDataIntent</string>
 			</array>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>

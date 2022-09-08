@@ -9,6 +9,11 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>IntentIntent</string>
+		<string>WriteDataIntent</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
 	</array>
 </dict>
 </plist>
